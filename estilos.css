@@ -1,4 +1,36 @@
 body{
-    background-color: brown;
-    color: azure;
+    background-color: azure;
+    color: brown;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: bisque;
+    border:solid rgb(15, 160, 185);
+    width: 40%;
+    padding: 1%;
+    text-align: center;
+}
+
+/*selector de id*/
+
+#unico{
+    background-color: burlywood;
+    color: red;
+    font-weight: bold;
+}
+
+#otro-unico{
+    background-color: orchid;
+}
+
+/*selector de clase*/
+
+.clave{
+    background-color: yellow; /*important*/
+}
+
+#promedio{
+background-color: orangered;
+color: black;
 }
