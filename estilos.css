@@ -1,43 +1,24 @@
-body{
-    background-color: azure;
-    color: brown;
-}
+body {
+    background-color: violet;
+    color: red;
 
-h1{
-    font-size: 5em;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(200px, auto);
 }
 
 p{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: bisque;
-    border:solid rgb(15, 160, 185);
-    width: 40%;
-    padding: 1%;
-    text-align: center;
-    margin: 10px 30px 50px;
-    border-style: inset;
-    border-radius: 50px 30px 20px;
+border: 3px solid red;
 }
 
-/*selector de id*/
-
-#unico{
-    background-color: burlywood;
-    color: red;
-    font-weight: bold;
+h5 {
+border: 3px solid red;
 }
 
-#otro-unico{
-    background-color: orchid;
-}
 
-/*selector de clase*/
-
-.clave{
-    background-color: yellow; /*important*/
-}
-
-#promedio{
-background-color: orangered;
-color: black;
+#tipo1 {
+    grid-template-rows: 1 / 4;
+    grid-row: 1;
+    background-color: blueviolet;
 }
