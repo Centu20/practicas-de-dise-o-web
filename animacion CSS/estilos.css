@@ -1,0 +1,73 @@
+body{
+    background-color: whitesmoke;
+    font-family: monospace;
+    font-size: large;
+}
+
+
+#parrafo-1{
+    color: rgb(13, 42, 136);
+    background-color: greenyellow;
+    border: 2px solid;
+    border-color: blueviolet;
+    padding: 4px;
+    animation: animacion 2s infinite;
+}
+
+@keyframes animacion {
+    10%{
+      transform: translatex(100px) ;
+    }
+
+    12%{
+        background-color: royalblue;
+        border-color: violet;
+    }
+}
+
+#parrafo-2{
+    color: brown;
+    background-color: burlywood;
+    border: 4px dashed;
+    border-color: red;
+    padding: 10px;
+    animation: estilo 2s infinite;
+}
+
+@keyframes estilo {
+    5%{
+        background-color: cyan;
+        border-color: fuchsia;
+    }
+
+}
+
+#parrafo-3{
+    color: sandybrown;
+    background-color: rgb(206, 96, 96);
+    border: 10px outset;
+    border-color: brown;
+    padding: 20px;
+    animation: fase 4s infinite;
+}
+
+@keyframes fase {
+    10%{
+        transform: translatex(20px);
+    }
+}
+
+#parrafo-4{
+    color: yellow;
+    background-color: darkcyan;
+    border: 20px double;
+    border-color: blueviolet;
+    padding: 25px;
+    animation: beta 4s infinite;
+}
+
+@keyframes beta {
+    0%{
+        transform: scale(0,5);
+    }
+}
