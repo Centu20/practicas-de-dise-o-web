@@ -1,0 +1,47 @@
+body{
+    background-color: antiquewhite;
+}
+
+
+h1{
+    text-align: center;
+}
+
+
+svg{
+    height: 100vh; 
+    width: 100%;
+}
+
+
+path{
+    fill: rgb(131, 185, 247);
+    stroke: yellow;
+    stroke-width: 0.8;
+}
+
+
+path:hover{
+    fill: rgb(17, 177, 226);
+    stroke: red;
+    stroke-width: 2,8;
+    animation: movimiento 2s;
+    animation: bajada 2s; 
+}
+
+
+@keyframes movimiento {
+    50%{
+        transform: scale(1,5);
+        
+        transform: translate(-50px, 10px);
+    }
+}
+
+
+@keyframes bajada {
+    50%{
+        transform: scale(1,5);
+        transform: translate(50px, -10px);
+    }
+}
