@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(221, 139, 139);
+    margin: 0;
+    display: grid;
+}
+
+
+header{
+    background-color: blueviolet;
+    height: 100px;
+}
+
+
+header>h1{
+    text-align: center;
+}
+
+
+main{
+    background-color: darkgoldenrod;
+    display: grid;
+}
+
+
+main>table{
+    font-size: large;
+}
+
+
+main tfoot{
+    text-align: center;
+}
+
+
+#cuadro-especial{
+    text-align: end;
+}
+
+a{
+    color: bisque;
+}
+
+
+footer{
+    background-color: rgb(250, 23, 23);
+    position: fixed;
+    bottom: 0;
+
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    border-top: 1px solid rgba(0, 0, 0, 0.219);
+}
+
+
+footer>p{
+    text-align: center;
+    width: 50wv;
+}
+
+
+footer ul{
+    margin-right: 40px;
+}
+
+
+th{
+    text-align: center;
+    color: skyblue;
+    font-size: x-large;
+}
