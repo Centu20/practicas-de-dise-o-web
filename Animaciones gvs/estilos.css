@@ -29,6 +29,10 @@ path:hover{
     animation: bajada 2s; 
 }
 
+.class{
+    animation: movimiento 2s;
+    animation: bajada 2s;
+}
 
 @keyframes movimiento {
     50%{
